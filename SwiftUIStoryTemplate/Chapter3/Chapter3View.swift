@@ -2,7 +2,15 @@ import SwiftUI
 
 struct Chapter3View: View {
     var body: some View {
-        Text("Malaya")
+        ZStack {
+            Color.black
+            .ignoresSafeArea()
+            
+            Image("malayaRoom")
+                .resizable()
+                .frame(width: 450, height: 890)
+            
+        }
     }
 }
 
