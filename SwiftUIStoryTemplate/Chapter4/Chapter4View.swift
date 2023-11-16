@@ -3,12 +3,12 @@ import SwiftUI
 struct Chapter4View: View {
     var body: some View {
         ZStack {
-            Color.black
+            Color.gray
                 .ignoresSafeArea()
             Image("hallwaywhite")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 680, height: 770)
+                .frame(width: 470, height: 770)
         }
     }
 }
