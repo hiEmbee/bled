@@ -5,10 +5,10 @@ struct Chapter4View: View {
         ZStack {
             Color.black
                 .ignoresSafeArea()
-            Image("hallway")
+            Image("hallwaywhite")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 600, height: 450)
+                .frame(width: 680, height: 770)
         }
     }
 }
