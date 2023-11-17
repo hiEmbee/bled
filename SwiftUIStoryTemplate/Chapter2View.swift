@@ -22,7 +22,7 @@ struct Chapter2View: View {
                     HStack {
                        
                         NavigationLink() {
-                            Chapter4View()
+                            SwiftUIView()
                         } label: {
                             Text("Story")
                                 .bold()
