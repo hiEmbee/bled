@@ -33,7 +33,7 @@ struct Chapter2View: View {
                                 .bold()
                         }
                         NavigationLink() {
-                            Chapter3View()
+                            Chapter5View()
                         } label: {
                             Text("Characters")
                                 .bold()
