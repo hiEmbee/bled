@@ -16,8 +16,8 @@ struct Chapter5View: View {
                     Text ("Patient x : I know we could make theree spears to kill them infront of the gae  then use bows and arrowsto shoot them from fudrther out.")
                     
                     var weapons = ["spear, bo and arrows, mace"]
-                    let let (weapons [0]) =["shaft,knife,rope,counter balance"]
-                    
+//                    let let (weapons [0]) =["shaft,knife,rope,counter balance"]
+//                    
                     Text ("Three days later")
                     
                    
@@ -29,11 +29,11 @@ struct Chapter5View: View {
                     Text ("Patient 2 : So you neen drugging us with out our permission?")
                     Text("Patient 3 : So to keep us keep us abducted.")
                     
-                    @State private var patient = "Oliva"
-                    
-                    
-                    VStack{
-                        Picker("Please choose a patient", selection: $patients){
+//                    @State private var patient = "Oliva"
+//                    
+//                    
+//                    VStack{
+//                        Picker("Please choose a patient", selection: $patients){
                             ForEach (patients, id: \.self) {
                                 Text($0)
                             }
