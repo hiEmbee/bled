@@ -4,6 +4,7 @@ struct Chapter5View: View {
     var patients = ["Olivia","Maria","Theo"]
     @State private var showDream = true
     var body: some View {
+
             VStack {
                 Toggle ("show Dream",isOn: $showDream)
                 if showDream {
@@ -50,7 +51,7 @@ struct Chapter5View: View {
             }
         
         
-    
+
 
 #Preview {
     Chapter5View()

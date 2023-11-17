@@ -2,7 +2,7 @@ import SwiftUI
 
 struct Chapter3View: View {
     var body: some View {
-        Text("Malaya")
+Text("Hi")
     }
 }
 
